@@ -1,0 +1,24 @@
+
+
+
+
+@media(max-width:992px){
+.project-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+    .heading-primay span{
+        
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+    
+    }
